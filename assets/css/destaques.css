@@ -1,8 +1,22 @@
 .destaques {
     display: grid;
+    grid-gap: .2rem;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
+}
+
+.caixa {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.destaques__titulo {
+    background: rgb(0, 0, 0, .5);
+    color: #f0e6e6;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%; 
 }
 
 .destaques__principal {
@@ -34,3 +48,35 @@
     grid-column: 3 / 3;
     grid-row: 3 / 3;
 }
+
+.destaques__categorias {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.destaques__categorias___lista {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between; 
+}
+
+.destaques__categorias___item {
+    align-items: center;
+    background: #c5c5c5;
+    border-left: 5px solid transparent;
+    color: #333333;
+    display: flex;
+    padding: 1rem;
+    width: 50%;
+}
+
+.destaques__categorias___link {
+    color: inherit;
+}
+
+.populares {
+    display: flex;
+    flex-wrap: wrap;
+}
+
