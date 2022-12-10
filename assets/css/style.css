@@ -1,38 +1,38 @@
 .app {
-    background: #c4dbd7;
-    display: grid;
-    font-family: Arial, Helvetica, sans-serif;
-    grid-template-areas:
-        "cabecalho"
-        "conteudo"
-        "rodape";
-    grid-template-columns: auto;
-    grid-template-rows: 50px auto auto;
+  background: #c4dbd7;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-areas:
+    "cabecalho"
+    "conteudo"
+    "rodape";
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto auto;
 }
 
 /* Seção Cabeçalho */
 
 .cabecalho {
-    align-items: center;
-    display: flex;
-    grid-area: cabecalho;
-    padding: 0 2rem;
+  align-items: center;
+  display: flex;
+  grid-area: cabecalho;
+  padding: 0 2rem;
 }
 
 /* Seção Destaques */
 
 .conteudo {
-    grid-area: conteudo;
-    padding: 0 2rem;
+  grid-area: conteudo;
+  padding: 0 2rem;
 }
 
 /* Rodapé */
 
 .rodape {
-    background: #7076c5;
-    color: #334738;
-    font-size: .9rem;
-    grid-area: rodape;
-    padding: 1.5rem;
-    text-align: center;
+  background: #7076c5;
+  color: #334738;
+  font-size: 0.9rem;
+  grid-area: rodape;
+  padding: 1.5rem;
+  text-align: center;
 }

@@ -1,84 +1,80 @@
 /* Seção Populares */
 
 .populares {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .populares__cabecalho {
-    border-bottom: 1px solid #fbfbfb;
-    display: flex;
-    justify-content: space-between;
-
+  border-bottom: 1px solid #fbfbfb;
+  display: flex;
+  justify-content: space-between;
 }
 
 .populares__titulo {
-    font-weight: 500;
-    text-transform: uppercase;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .populares__icone {
-    margin-right: .50rem;
+  margin-right: 0.5rem;
 }
 
 .populares__botao {
-    background: transparent;
-    border: transparent;
+  background: transparent;
+  border: transparent;
 }
 
 .populares__conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    grid-area: conteudo;
-    padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: conteudo;
+  padding: 1rem 0;
 }
 
 .populares__card {
-    background: #fbfbfb;
-    display: grid;
-    grid-template-areas: 
-        "card-imagem"
-        "card-corpo";
-    grid-template-columns: 100%;
-    grid-template-rows: 175px auto;
-    margin-right: 1rem;
-    width: calc(20% - 1rem);
+  background: #fbfbfb;
+  display: grid;
+  grid-template-areas:
+    "card-imagem"
+    "card-corpo";
+  grid-template-columns: 100%;
 }
 
 .populares__card:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .populares__card___imagem {
-    grid-area: card-imagem;
-    height: 100%;
-    width: 100%;
+  grid-area: card-imagem;
+  height: 100%;
+  width: 100%;
 }
 
 .populares__card___corpo {
-    display: grid;
-    grid-area: card-corpo;
-    grid-row-gap: .5rem;
-    grid-template-areas: 
-        "card-cabecalho"
-        "card-conteudo";
-    grid-template-rows: 50px;
-    padding: .75rem;
+  display: grid;
+  grid-area: card-corpo;
+  grid-row-gap: 0.5rem;
+  grid-template-areas:
+    "card-cabecalho"
+    "card-conteudo";
+  grid-template-rows: 50px;
+  padding: 0.75rem;
 }
 
 .populares__card___titulo {
-    color: #1a9000;
-    font-size: 1.5rem;
+  color: #1a9000;
+  font-size: 1.5rem;
 }
 
 .populares__card___data {
-    color: #0b3a00;
-    font-size: .9rem;
+  color: #0b3a00;
+  font-size: 0.9rem;
 }
 
 .populares__card___descricao {
-    color: #071903;
-    font-size: .8rem;
-    line-height: 1.5;
-    margin: 1rem 0;
-    text-align: justify;
+  color: #071903;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  text-align: justify;
 }
