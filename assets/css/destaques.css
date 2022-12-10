@@ -1,3 +1,5 @@
+/* Seção Destaques */
+
 .destaques {
     display: grid;
     grid-gap: .2rem;
@@ -74,9 +76,3 @@
 .destaques__categorias___link {
     color: inherit;
 }
-
-.populares {
-    display: flex;
-    flex-wrap: wrap;
-}
-

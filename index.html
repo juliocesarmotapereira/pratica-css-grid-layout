@@ -11,11 +11,33 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/destaques.css">
+    <link rel="stylesheet" href="/assets/css/populares.css">
 </head>
 
 <body class="app">
-    <header class="cabecalho">Cabeçalho</header>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link ativo" href="#">
+                        <i class="fas fa-home"></i>
+                        Início
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicativos</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Jogos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="conteudo">
+
+        <!-- Seção Destaques -->
+
         <section class="destaques">
             <div class="destaques__principal caixa">
                 <h3 class="destaques__titulo">Fortnite</h3>
@@ -62,6 +84,8 @@
             </div>
         </section>
 
+        <!-- Seção Aplicativos Populares -->
+
         <section class="populares">
             <div class="populares__itens">
                 <div class="populares__info">
@@ -76,6 +100,7 @@
                         </button>
                     </div>
                 </div>
+
                 <div class="populares__conteudo">
                     <div class="populares__card">
                         <img class="populares__card___imagem" src="./assets/img/slack.png">
@@ -370,7 +395,7 @@
         </section>
     </main>
 
-    <footer class="rodape">Rodapé</footer>
+    <footer class="rodape"></footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 
